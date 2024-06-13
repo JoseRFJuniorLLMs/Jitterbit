@@ -36,7 +36,7 @@
    **Resposta:**
 
    ```javascript
-   
+
    function somaImpares(n) {
       let soma = 0;
       for (let i = 1; i <= n; i++) {
@@ -172,6 +172,27 @@ Você deve criar uma API simples para gerenciar pedidos. A API deve permitir a c
    ```sh
    npm init -y
    npm install express mongoose body-parser
+
+**Modelagem:**
+```javascript
+
+const mongoose = require('mongoose');
+
+const orderSchema = new mongoose.Schema({
+   orderId: String,
+   value: Number,
+   creationDate: Date,
+   items: [{
+      productId: Number,
+      quantity: Number,
+      price: Number
+   }]
+});
+
+const Order = mongoose.model('Order', orderSchema);
+
+
+```
 
 2. **servidor e configure o Express:**
 
