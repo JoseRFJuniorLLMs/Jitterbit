@@ -1,6 +1,4 @@
-# Create the README.md file with detailed explanations for each answer without showing the process
 
-content = """
 # Teste Teórico Dev PS
 
 ## Javascript
