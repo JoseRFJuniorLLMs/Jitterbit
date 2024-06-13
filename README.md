@@ -34,7 +34,9 @@
 8. **Escreva uma função em JavaScript chamada “somaImpares” que recebe um número inteiro positivo “n” como parâmetro e retorna a soma de todos os números ímpares de 1 até n.**
    **Resposta:** A função itera de 1 até `n`, verifica se o número é ímpar (`i % 2 !== 0`), e se for, adiciona à soma total. Retorna a soma dos números ímpares até `n`.
    **Resposta:**
+
    ```javascript
+   
    function somaImpares(n) {
       let soma = 0;
       for (let i = 1; i <= n; i++) {
@@ -45,19 +47,23 @@
       return soma;
    }
 
+   ```
+
 9. **Escreva uma função chamada” inverterPalavra” que recebe uma string como parâmetro e retorna a string com as letras invertidas.**
    **Resposta:** A função divide a string em um array de caracteres (`split('')`), inverte a ordem dos elementos no array (`reverse()`), e junta os caracteres de volta em uma string (`join('')`).
 
-      ```javascript
+   ```javascript
+
    function inverterPalavra(str) {
       return str.split('').reverse().join('');
    }
+
    ```
 
 10. **Considere o seguinte trecho de código em JavaScript que tenta realizar a divisão de dois números:**
     **Resposta:** A função tenta dividir `number1` por `number2`. Se `number2` for 0, lança um erro. O bloco `catch` captura o erro e retorna a mensagem de erro.
 
-        ```javascript
+      ```javascript
     function dividirNumeros(number1, number2) {
        try {
           if (number2 === 0) {
@@ -68,6 +74,7 @@
           return "Erro: " + error.message;
        }
     }
+
     ```
 
 11. **Como você pode percorrer e mapear um array JSON em JavaScript? Explique como usar métodos como "map", "forEach" ou "for...of" para iterar e manipular os elementos do array.**
