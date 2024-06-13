@@ -168,10 +168,6 @@ Você deve criar uma API simples para gerenciar pedidos. A API deve permitir a c
 
 2. **servidor e configure o Express:**
 
-Para formatar um bloco de código no arquivo README.md usando a sintaxe Markdown, você deve usar três crases (\`\`\`) antes e depois do código. Especificar a linguagem após as três crases iniciais ajuda a destacar a sintaxe do código. No caso do seu exemplo, você deve usar `javascript` ou `js` para JavaScript.
-
-Aqui está como ficaria o seu código formatado corretamente:
-
 ```javascript
 
 const express = require('express');
